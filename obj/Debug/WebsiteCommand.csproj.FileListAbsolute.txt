@@ -1,0 +1,11 @@
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\WebsiteCommand.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\WebsiteCommand.pdb
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Debug\WebsiteCommand.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Debug\WebsiteCommand.pdb
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\Assembly-CSharp.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\Rocket.API.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\Rocket.Core.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\Rocket.Unturned.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\UnityEngine.dll
+C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Debug\WebsiteCommand.csprojResolveAssemblyReference.cache
