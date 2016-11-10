@@ -38,7 +38,8 @@ namespace WebsiteCommand
         {
             UnturnedPlayer uCaller = (UnturnedPlayer)caller;
 
-            uCaller.Player.channel.send("askBrowserRequest", uCaller.CSteamID, ESteamPacket.UPDATE_RELIABLE_BUFFER, desc, url);
+            //uCaller.Player.channel.send("askBrowserRequest", uCaller.CSteamID, ESteamPacket.UPDATE_RELIABLE_BUFFER, desc, url);
+            WebsitePlugin.OpenUrl(uCaller, url, desc);
         }
 
         public string Help
