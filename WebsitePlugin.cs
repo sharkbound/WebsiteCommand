@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using Rocket.API;
 using Rocket.Core.Plugins;
-using Rocket.Core.Logging;
 using Rocket.Core;
 using Rocket.Unturned;
 using Rocket.Unturned.Player;
 using SDG.Unturned;
 using System.Threading;
+using UnityEngine;
+
+using Logger = Rocket.Core.Logging.Logger;
 
 namespace WebsiteCommand
 {
@@ -46,21 +48,23 @@ namespace WebsiteCommand
             }
         }
 
-        void Events_OnPlayerConnected(Rocket.Unturned.Player.UnturnedPlayer player)
+        void Events_OnPlayerConnected(UnturnedPlayer player)
         {
-            if (Configuration.Instance.OpenUrlOnJoin)
+            if (player != null && Configuration.Instance.OpenUrlOnJoin)
             {
-                new Thread(() =>
-                {
-                    Thread.Sleep(1500);
-                    OpenUrl(player, Configuration.Instance.JoinUrl, Configuration.Instance.JoinDesc);
-                }).Start();
+                StartCoroutine(StartDelayedUrlRequest(player));
             }
         }
 
         public static void OpenUrl(UnturnedPlayer player, string url, string desc)
         {
             player.Player.channel.send("askBrowserRequest", player.CSteamID, ESteamPacket.UPDATE_RELIABLE_BUFFER, desc, url);
+        }
+
+        IEnumerator<WaitForSeconds> StartDelayedUrlRequest(UnturnedPlayer player)
+        {
+            yield return new WaitForSeconds(1.5f);
+            OpenUrl(player, Configuration.Instance.JoinUrl, Configuration.Instance.JoinDesc);
         }
     }
 }
