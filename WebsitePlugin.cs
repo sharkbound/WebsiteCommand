@@ -58,7 +58,8 @@ namespace WebsiteCommand
 
         public static void OpenUrl(UnturnedPlayer player, string url, string desc)
         {
-            player.Player.channel.send("askBrowserRequest", player.CSteamID, ESteamPacket.UPDATE_RELIABLE_BUFFER, desc, url);
+            //player.Player.channel.send("askBrowserRequest", player.CSteamID, ESteamPacket.UPDATE_RELIABLE_BUFFER, desc, url);
+            player.Player.sendBrowserRequest(desc, url);
         }
 
         IEnumerator<WaitForSeconds> StartDelayedUrlRequest(UnturnedPlayer player)
