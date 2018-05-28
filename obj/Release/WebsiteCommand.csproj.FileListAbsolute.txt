@@ -1,5 +1,0 @@
-C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Release\WebsiteCommand.dll
-C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Release\WebsiteCommand.pdb
-C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Release\WebsiteCommand.csprojResolveAssemblyReference.cache
-C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Release\WebsiteCommand.dll
-C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Release\WebsiteCommand.pdb

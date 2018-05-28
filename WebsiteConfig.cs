@@ -4,31 +4,34 @@ using System.Linq;
 using System.Text;
 using Rocket.API;
 using System.Xml.Serialization;
+using Rocket.Core.Configuration;
 
 namespace WebsiteCommand
 {
-    public class WebsiteConfig : IRocketPluginConfiguration
+    public class WebsiteConfig
     {
-        public bool OpenUrlOnJoin;
-        public string JoinUrl;
-        public string JoinDesc;
-        [XmlArrayItem(ElementName = "WebsiteCommand")]
-        public List<WebsiteCommand> WebsiteCommands;
+        public bool OpenUrlOnJoin { get; set; } = false;
+        public string JoinUrl { get; set; } = "www.google.com";
+        public string JoinDesc { get; set; } = "website:";
 
-        public void LoadDefaults()
+        [ConfigArray]
+        public WebsiteCommand[] WebsiteCommands { get; set; } =
         {
-            OpenUrlOnJoin = false;
-            JoinUrl = "www.google.com";
-            JoinDesc = "website:";
-            WebsiteCommands = new List<WebsiteCommand> { new WebsiteCommand{CommandName = "default", Desc = "default", Help = "default", Url = "default"}};
-        }
+            new WebsiteCommand
+            {
+                CommandName = "discord",
+                Description = "Join our discord!",
+                Url = "https://discord.gg",
+                Permission = "url.discord"
+            }
+        };
     }
 
     public class WebsiteCommand
     {
-        public string Url;
-        public string Desc;
-        public string CommandName;
-        public string Help;
+        public string Url { get; set; }
+        public string Description { get; set; }
+        public string CommandName { get; set; }
+        public string Permission { get; set; }
     }
 }
