@@ -3,3 +3,9 @@ C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\Web
 C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Release\WebsiteCommand.csprojResolveAssemblyReference.cache
 C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Release\WebsiteCommand.dll
 C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Release\WebsiteCommand.pdb
+D:\Gereksizler\GitHub\WebsiteCommand\bin\Release\WebsiteCommand.dll
+D:\Gereksizler\GitHub\WebsiteCommand\bin\Release\WebsiteCommand.pdb
+D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.csprojAssemblyReference.cache
+D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.csproj.CoreCompileInputs.cache
+D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.dll
+D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.pdb
