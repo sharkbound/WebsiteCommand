@@ -9,3 +9,8 @@ D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.csprojAssemblyRe
 D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.csproj.CoreCompileInputs.cache
 D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.dll
 D:\Gereksizler\GitHub\WebsiteCommand\obj\Release\WebsiteCommand.pdb
+D:\git\WebsiteCommand\bin\Release\WebsiteCommand.dll
+D:\git\WebsiteCommand\bin\Release\WebsiteCommand.pdb
+D:\git\WebsiteCommand\obj\Release\WebsiteCommand.csprojAssemblyReference.cache
+D:\git\WebsiteCommand\obj\Release\WebsiteCommand.dll
+D:\git\WebsiteCommand\obj\Release\WebsiteCommand.pdb

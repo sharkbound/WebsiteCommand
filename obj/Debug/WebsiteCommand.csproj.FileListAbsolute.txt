@@ -9,3 +9,8 @@ C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\Web
 C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\Rocket.Unturned.dll
 C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\bin\Debug\UnityEngine.dll
 C:\Users\owner\Desktop\GitHub\RocketModPlugins\WebsiteCommand\WebsiteCommand\WebsiteCommand\obj\Debug\WebsiteCommand.csprojResolveAssemblyReference.cache
+D:\git\WebsiteCommand\bin\Debug\WebsiteCommand.dll
+D:\git\WebsiteCommand\bin\Debug\WebsiteCommand.pdb
+D:\git\WebsiteCommand\obj\Debug\WebsiteCommand.csprojAssemblyReference.cache
+D:\git\WebsiteCommand\obj\Debug\WebsiteCommand.dll
+D:\git\WebsiteCommand\obj\Debug\WebsiteCommand.pdb
